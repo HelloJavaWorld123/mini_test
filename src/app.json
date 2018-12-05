@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/user/main",
+    "pages/house/main",
+    "pages/user/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "无忧",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#52FFDA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "找房",
+        "pagePath": "pages/index/main",
+        "iconPath": "/static/images/index.png",
+        "selectedIconPath": "/static/images/index_active.png"
+      },
+      {
+        "text": "房源",
+        "pagePath": "pages/house/main",
+        "iconPath": "/static/images/article.png",
+        "selectedIconPath": "/static/images/article_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/main",
+        "iconPath": "/static/images/my.png",
+        "selectedIconPath": "/static/images/my_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "uploadFile": 10000
+  },
+  "debug": true
+}
